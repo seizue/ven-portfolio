@@ -179,6 +179,28 @@ body {
     margin: 5% auto;
 }
 
+/* For smaller screens, adjust the layout of the cards */
+@media only screen and (max-width: 768px) {
+    .card-container {
+        justify-content: center; /* Center the cards horizontally */
+    }
+
+    .card {
+        flex: 0 0 calc(100% - 20px); /* Set the width of the cards to 100% minus margins */
+        margin-right: 0; /* Remove right margin */
+    }
+}
+
+/* For even smaller screens, adjust styles further */
+@media only screen and (max-width: 480px) {
+    .card {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .card h3 {
+        font-size: 18px; /* Decrease font size for card headings */
+    }
+}
 
 
 .contact-container {
