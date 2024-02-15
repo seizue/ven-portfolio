@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <!-- GitHub icon added here -->
+            <a href="https://github.com/seizue">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+                    <!-- Your GitHub repository SVG icon code goes here -->
+                    <path fill="#000000" d="M12 0a12 12 0 00-3.805 23.387c.6.117.82-.262.82-.58 0-.287-.01-1.042-.015-2.045-3.338.724-4.042-1.61-4.042-1.61-.546-1.384-1.334-1.753-1.334-1.753-1.089-.743.082-.727.082-.727 1.205.085 1.839 1.237 1.839 1.237 1.07 1.834 2.806 1.303 3.49.998.108-.776.416-1.303.758-1.603-2.656-.303-5.466-1.328-5.466-5.91 0-1.307.465-2.37 1.236-3.206-.124-.303-.536-1.517.117-3.16 0 0 1.005-.32 3.3 1.227a11.442 11.442 0 013.007-.404c1.018.007 2.044.137 3.007.404 2.292-1.547 3.296-1.227 3.296-1.227.656 1.643.245 2.857.12 3.16.77.836 1.234 1.899 1.234 3.206 0 4.595-2.813 5.603-5.475 5.898.43.37.813 1.095.813 2.21 0 1.596-.015 2.878-.015 3.27 0 .32.215.703.825.579A12.003 12.003 0 0024 12.047C24 5.393 18.627 0 12 0z"/>
+                </svg>
+            </a>
+        </div>
+        <ul class="navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="profile">
+            <!-- Add your background image here -->
+        </div>
+        <div class="profile">
+            <img src="https://i.imgur.com/ODkOWts.jpeg" alt="Your Profile Image">
+            <h1>Ven (Seizue)</h1>
+            <p>Web Developer</p>               
+        </div>
+    </header>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Here you can find my latest projects and get in touch with me!</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://i.imgur.com/6nhqC6F.png" alt="Project 1 Image">
+                    <h3>Dofox</h3>
+                    <p>Admin panel for cock fight arena. Currently WIP </p>
+                </div>
+                <div class="card">
+                    <img src="https://i.imgur.com/jaHoRqF.png" alt="Project 2 Image">
+                    <h3>Reme</h3>
+                    <p>Menu management system</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.imgur.com/3nmjwBa.png" alt="Project 3 Image">
+                    <h3>Project Ghost</h3>
+                    <p>It's just gui for vpn using Bunifu framework </p>
+                </div>
+                 <div class="card">
+                    <img src="https://i.imgur.com/dTmMhJJ.png" alt="Project 3 Image">
+                    <h3>Sticky Ghost</h3>
+                    <p>Sticky Note using Bunifu framework</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/xnqedvzo" method="POST">
+                <div class="contact-container">
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <div class="contact-detail">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </section>        
+    </div>
+    <footer>
+        <p>&copy; 2024 Seizue. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
