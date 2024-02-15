@@ -35,7 +35,7 @@ body {
     justify-content: space-between; /* Align items to the right */
     align-items: center; /* Vertically center items */
     position: relative;
-    height: 35px; /* Adjust the height as needed */
+    height: 45px; /* Adjust the height as needed */
 }
 
 .navbar-left {
