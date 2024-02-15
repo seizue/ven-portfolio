@@ -2,8 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFFAF5; /* Set body background color */
+    background-color: #FFFAF5;
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
+
 
 .header {
     background-image: url('https://i.imgur.com/yJ6OCsZ.jpeg'); /* Add background image URL */
