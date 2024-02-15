@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFFAF5;
-    overflow-x: hidden; /* Prevent horizontal overflow */
+    overflow-x: hidden;
+    position: relative; /* Prevent horizontal overflow */
 }
 
 
