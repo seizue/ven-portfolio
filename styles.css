@@ -209,6 +209,13 @@ body {
     }
 }
 
+/* Media query for mobile view */
+@media only screen and (max-width: 600px) {
+    .section h2,
+    .section p {
+        text-align: center; /* Align H2 and p to center on smaller screens */
+    }
+}
 
 .contact-container {
     display: flex;
